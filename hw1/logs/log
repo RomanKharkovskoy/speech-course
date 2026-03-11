@@ -1,0 +1,140 @@
+21:04:46 [INFO] __main__: Device: cpu
+21:04:46 [INFO] __main__: Verifying LogMelFilterBanks against torchaudio.transforms.MelSpectrogram
+21:04:46 [INFO] __main__: LogMelFilterBanks verification passed
+21:04:47 [INFO] __main__: Saved images/melbanks_comparison.png
+21:04:47 [INFO] __main__: Loading datasets
+21:04:47 [INFO] dataset: training: 6358 samples (yes=3228, no=3130)
+21:04:47 [INFO] dataset: validation: 803 samples (yes=397, no=406)
+21:04:47 [INFO] dataset: testing: 824 samples (yes=419, no=405)
+21:04:47 [INFO] __main__: Baseline model parameters: 34305
+21:04:47 [INFO] __main__: Starting n_mels experiment
+21:04:47 [INFO] __main__: n_mels=20
+21:04:47 [INFO] __main__: Parameters: 22785
+21:05:01 [INFO] train: epoch  1/10, loss: 0.3258, val acc: 0.9452, time: 13.0
+21:05:12 [INFO] train: epoch  2/10, loss: 0.1641, val acc: 0.9738, time: 11.1
+21:05:23 [INFO] train: epoch  3/10, loss: 0.1098, val acc: 0.9701, time: 11.3
+21:05:34 [INFO] train: epoch  4/10, loss: 0.0820, val acc: 0.9751, time: 11.3
+21:05:46 [INFO] train: epoch  5/10, loss: 0.0637, val acc: 0.9863, time: 11.3
+21:05:57 [INFO] train: epoch  6/10, loss: 0.0558, val acc: 0.9564, time: 11.4
+21:06:09 [INFO] train: epoch  7/10, loss: 0.0495, val acc: 0.9851, time: 11.5
+21:06:21 [INFO] train: epoch  8/10, loss: 0.0409, val acc: 0.9813, time: 12.0
+21:06:32 [INFO] train: epoch  9/10, loss: 0.0357, val acc: 0.9900, time: 11.6
+21:06:44 [INFO] train: epoch 10/10, loss: 0.0295, val acc: 0.9826, time: 11.8
+21:06:45 [INFO] __main__: Test accuracy: 0.9915
+21:06:45 [INFO] __main__: n_mels=40
+21:06:45 [INFO] __main__: Parameters: 26625
+21:06:57 [INFO] train: epoch  1/10, loss: 0.3262, val acc: 0.9489, time: 11.6
+21:07:09 [INFO] train: epoch  2/10, loss: 0.1622, val acc: 0.9851, time: 11.5
+21:07:20 [INFO] train: epoch  3/10, loss: 0.1000, val acc: 0.9838, time: 11.4
+21:07:31 [INFO] train: epoch  4/10, loss: 0.0784, val acc: 0.9826, time: 11.3
+21:07:42 [INFO] train: epoch  5/10, loss: 0.0568, val acc: 0.9813, time: 11.3
+21:07:54 [INFO] train: epoch  6/10, loss: 0.0535, val acc: 0.9888, time: 11.2
+21:08:05 [INFO] train: epoch  7/10, loss: 0.0503, val acc: 0.9863, time: 11.3
+21:08:16 [INFO] train: epoch  8/10, loss: 0.0392, val acc: 0.9863, time: 11.2
+21:08:28 [INFO] train: epoch  9/10, loss: 0.0344, val acc: 0.9813, time: 11.3
+21:08:39 [INFO] train: epoch 10/10, loss: 0.0370, val acc: 0.9863, time: 11.5
+21:08:40 [INFO] __main__: Test accuracy: 0.9964
+21:08:40 [INFO] __main__: n_mels=80
+21:08:40 [INFO] __main__: Parameters: 34305
+21:08:52 [INFO] train: epoch  1/10, loss: 0.3051, val acc: 0.8904, time: 11.6
+21:09:04 [INFO] train: epoch  2/10, loss: 0.1628, val acc: 0.9601, time: 11.6
+21:09:15 [INFO] train: epoch  3/10, loss: 0.1102, val acc: 0.9626, time: 11.4
+21:09:26 [INFO] train: epoch  4/10, loss: 0.0875, val acc: 0.9801, time: 11.4
+21:09:38 [INFO] train: epoch  5/10, loss: 0.0580, val acc: 0.9888, time: 11.4
+21:09:49 [INFO] train: epoch  6/10, loss: 0.0529, val acc: 0.9552, time: 11.4
+21:10:00 [INFO] train: epoch  7/10, loss: 0.0472, val acc: 0.9776, time: 11.3
+21:10:12 [INFO] train: epoch  8/10, loss: 0.0448, val acc: 0.9875, time: 11.3
+21:10:23 [INFO] train: epoch  9/10, loss: 0.0344, val acc: 0.9726, time: 11.6
+21:10:35 [INFO] train: epoch 10/10, loss: 0.0364, val acc: 0.9900, time: 11.8
+21:10:36 [INFO] __main__: Test accuracy: 0.9842
+21:10:37 [INFO] __main__: Saved images/nmels_train_loss.png
+21:10:37 [INFO] matplotlib.category: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+21:10:37 [INFO] matplotlib.category: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+21:10:37 [INFO] __main__: Saved images/nmels_test_accuracy.png
+21:10:37 [INFO] __main__: Starting groups experiment
+21:10:37 [INFO] __main__: groups=1
+21:10:37 [INFO] __main__: params: 34305, FLOPs: 2361248.0
+21:10:48 [INFO] train: epoch  1/10, loss: 0.3192, val acc: 0.7858, time: 11.6
+21:11:00 [INFO] train: epoch  2/10, loss: 0.1621, val acc: 0.9738, time: 11.3
+21:11:11 [INFO] train: epoch  3/10, loss: 0.1086, val acc: 0.9714, time: 11.2
+21:11:22 [INFO] train: epoch  4/10, loss: 0.0847, val acc: 0.9838, time: 11.4
+21:11:34 [INFO] train: epoch  5/10, loss: 0.0672, val acc: 0.9278, time: 11.6
+21:11:46 [INFO] train: epoch  6/10, loss: 0.0620, val acc: 0.9788, time: 12.0
+21:11:58 [INFO] train: epoch  7/10, loss: 0.0448, val acc: 0.9352, time: 11.9
+21:12:10 [INFO] train: epoch  8/10, loss: 0.0411, val acc: 0.9888, time: 11.9
+21:12:21 [INFO] train: epoch  9/10, loss: 0.0372, val acc: 0.9751, time: 11.9
+21:12:33 [INFO] train: epoch 10/10, loss: 0.0351, val acc: 0.9738, time: 12.0
+21:12:35 [INFO] __main__: test accuracy: 0.9842
+21:12:35 [INFO] __main__: groups=2
+21:12:35 [INFO] __main__: params: 20481, FLOPs: 1278368.0
+21:12:47 [INFO] train: epoch  1/10, loss: 0.3251, val acc: 0.9539, time: 11.9
+21:12:58 [INFO] train: epoch  2/10, loss: 0.1766, val acc: 0.9577, time: 11.7
+21:13:10 [INFO] train: epoch  3/10, loss: 0.1203, val acc: 0.9651, time: 11.8
+21:13:22 [INFO] train: epoch  4/10, loss: 0.0948, val acc: 0.9676, time: 11.8
+21:13:34 [INFO] train: epoch  5/10, loss: 0.0731, val acc: 0.9763, time: 11.9
+21:13:45 [INFO] train: epoch  6/10, loss: 0.0666, val acc: 0.9826, time: 11.2
+21:13:56 [INFO] train: epoch  7/10, loss: 0.0549, val acc: 0.9676, time: 11.0
+21:14:07 [INFO] train: epoch  8/10, loss: 0.0510, val acc: 0.9776, time: 11.1
+21:14:18 [INFO] train: epoch  9/10, loss: 0.0443, val acc: 0.9776, time: 11.1
+21:14:30 [INFO] train: epoch 10/10, loss: 0.0399, val acc: 0.9751, time: 11.7
+21:14:31 [INFO] __main__: test accuracy: 0.9745
+21:14:31 [INFO] __main__: groups=4
+21:14:31 [INFO] __main__: params: 13569, FLOPs: 736928.0
+21:14:43 [INFO] train: epoch  1/10, loss: 0.3341, val acc: 0.9290, time: 11.9
+21:14:55 [INFO] train: epoch  2/10, loss: 0.1830, val acc: 0.8319, time: 11.8
+21:15:07 [INFO] train: epoch  3/10, loss: 0.1258, val acc: 0.9676, time: 11.8
+21:15:18 [INFO] train: epoch  4/10, loss: 0.0987, val acc: 0.9788, time: 11.7
+21:15:30 [INFO] train: epoch  5/10, loss: 0.0848, val acc: 0.9788, time: 11.8
+21:15:42 [INFO] train: epoch  6/10, loss: 0.0713, val acc: 0.9726, time: 11.8
+21:15:54 [INFO] train: epoch  7/10, loss: 0.0637, val acc: 0.9826, time: 11.8
+21:16:06 [INFO] train: epoch  8/10, loss: 0.0586, val acc: 0.9714, time: 11.8
+21:16:17 [INFO] train: epoch  9/10, loss: 0.0521, val acc: 0.9888, time: 11.8
+21:16:29 [INFO] train: epoch 10/10, loss: 0.0460, val acc: 0.9863, time: 11.9
+21:16:31 [INFO] __main__: test accuracy: 0.9842
+21:16:31 [INFO] __main__: groups=8
+21:16:31 [INFO] __main__: params: 10113, FLOPs: 466208.0
+21:16:42 [INFO] train: epoch  1/10, loss: 0.3636, val acc: 0.9103, time: 11.8
+21:16:54 [INFO] train: epoch  2/10, loss: 0.2020, val acc: 0.9514, time: 11.8
+21:17:06 [INFO] train: epoch  3/10, loss: 0.1491, val acc: 0.9365, time: 11.7
+21:17:18 [INFO] train: epoch  4/10, loss: 0.1143, val acc: 0.9514, time: 11.8
+21:17:30 [INFO] train: epoch  5/10, loss: 0.0952, val acc: 0.9664, time: 11.8
+21:17:41 [INFO] train: epoch  6/10, loss: 0.0838, val acc: 0.9676, time: 11.8
+21:17:53 [INFO] train: epoch  7/10, loss: 0.0733, val acc: 0.8742, time: 11.8
+21:18:05 [INFO] train: epoch  8/10, loss: 0.0632, val acc: 0.9763, time: 11.8
+21:18:17 [INFO] train: epoch  9/10, loss: 0.0565, val acc: 0.9701, time: 11.8
+21:18:29 [INFO] train: epoch 10/10, loss: 0.0586, val acc: 0.9838, time: 11.9
+21:18:30 [INFO] __main__: test accuracy: 0.9879
+21:18:30 [INFO] __main__: groups=16
+21:18:30 [INFO] __main__: params: 8385, FLOPs: 330848.0
+21:18:42 [INFO] train: epoch  1/10, loss: 0.3925, val acc: 0.9228, time: 11.8
+21:18:53 [INFO] train: epoch  2/10, loss: 0.2251, val acc: 0.9365, time: 11.7
+21:19:05 [INFO] train: epoch  3/10, loss: 0.1677, val acc: 0.9539, time: 11.7
+21:19:17 [INFO] train: epoch  4/10, loss: 0.1386, val acc: 0.9564, time: 11.8
+21:19:29 [INFO] train: epoch  5/10, loss: 0.1169, val acc: 0.9651, time: 11.8
+21:19:40 [INFO] train: epoch  6/10, loss: 0.1037, val acc: 0.9589, time: 11.7
+21:19:52 [INFO] train: epoch  7/10, loss: 0.0930, val acc: 0.9689, time: 11.8
+21:20:04 [INFO] train: epoch  8/10, loss: 0.0856, val acc: 0.9664, time: 11.8
+21:20:16 [INFO] train: epoch  9/10, loss: 0.0800, val acc: 0.9751, time: 11.8
+21:20:28 [INFO] train: epoch 10/10, loss: 0.0706, val acc: 0.9626, time: 11.8
+21:20:29 [INFO] __main__: test accuracy: 0.9745
+21:20:29 [INFO] matplotlib.category: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+21:20:29 [INFO] matplotlib.category: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+21:20:29 [INFO] matplotlib.category: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+21:20:29 [INFO] matplotlib.category: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+21:20:29 [INFO] matplotlib.category: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+21:20:29 [INFO] matplotlib.category: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+21:20:29 [INFO] __main__: Saved images/groups_metrics.png
+21:20:29 [INFO] __main__: Saved images/groups_train_loss.png
+21:20:29 [INFO] matplotlib.category: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+21:20:29 [INFO] matplotlib.category: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+21:20:29 [INFO] __main__: Saved images/groups_test_accuracy.png
+21:20:29 [INFO] __main__: n_mels summary
+21:20:29 [INFO] __main__: n_mels= 20, test acc=0.9915
+21:20:29 [INFO] __main__: n_mels= 40, test acc=0.9964
+21:20:29 [INFO] __main__: n_mels= 80, test acc=0.9842
+21:20:29 [INFO] __main__: groups summary
+21:20:29 [INFO] __main__: groups= 1, params: 34305, FLOPs: 2,361,248, time: 11.7, test acc: 0.9842
+21:20:29 [INFO] __main__: groups= 2, params: 20481, FLOPs: 1,278,368, time: 11.5, test acc: 0.9745
+21:20:29 [INFO] __main__: groups= 4, params: 13569, FLOPs: 736,928, time: 11.8, test acc: 0.9842
+21:20:29 [INFO] __main__: groups= 8, params: 10113, FLOPs: 466,208, time: 11.8, test acc: 0.9879
+21:20:29 [INFO] __main__: groups=16, params: 8385, FLOPs: 330,848, time: 11.8, test acc: 0.9745
