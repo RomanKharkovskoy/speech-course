@@ -1,3 +1,7 @@
 data/SpeechCommands/
 __pycache__
 *.tar.gz
+# ai-talent-hub-itmo-speech-course/
+hw2/data
+hw2/examples
+hw2/lm

@@ -1,4 +1,4 @@
-# Assignment 1. Digital Signal Processing — Report
+# Assignment 2. ASR Decoding — Report
 
 ## 1. LogMelFilterBanks Implementation
 
